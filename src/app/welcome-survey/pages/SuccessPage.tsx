@@ -29,7 +29,7 @@ const SuccessPage = () => {
           style={{ animation: 'fadeIn 0.5s ease-in' }}
         >
           <Image
-            src="/assets/image/onboarding_msg tp_1.png"
+            src="/assets/image/onboarding_msg tp_1.jpg"
             alt="Awesome! Can't wait to get you speak like a Mr International!"
             fill
             className="object-contain"

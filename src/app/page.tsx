@@ -44,34 +44,35 @@ export default function LandingPage() {
     );
   }
 
-  return (
+    return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8 relative overflow-hidden">
-      <ResponsiveLandingVideo 
+      <ResponsiveLandingVideo
         desktopVideo="/tutors/Lingobabe_landing.mp4"
         mobileVideo="/tutors/Lingobabe_landing_mobile.mp4"
       />
-      
+
       <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-center z-10">
         <button
           onClick={handleGetStarted}
           className="relative overflow-hidden group"
+          style={{ borderRadius: '50px' }} // Add this line to make the button a stadium shape
         >
-          <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-green-400 to-emerald-500 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <span className="relative block px-16 py-4 text-2xl font-semibold text-white rounded-full shadow-lg">
+          <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-green-400 to-emerald-500 opacity-90 group-hover:opacity-100 transition-opacity duration-300" style={{ borderRadius: '50px' }}></div>
+          <span className="relative block px-16 py-4 text-2xl font-semibold text-white rounded-full shadow-lg" style={{ borderRadius: '50px' }}>
             GET STARTED
           </span>
-          
+
           {/* Subtle animation hints */}
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <div className="w-full h-full bg-white opacity-10 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+            <div className="w-full h-full bg-white opacity-10 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" style={{ borderRadius: '50px' }}></div>
           </div>
         </button>
-        
+
         {/* Status text beneath button */}
         <p className="mt-4 text-white text-sm bg-black/30 px-4 py-2 rounded-full backdrop-blur-sm">
-          {isConnected ? 
+          {isConnected ?
             'Continue to choose your language' :
-            hasDoneSurvey ? 
+            hasDoneSurvey ?
               'Connect your wallet to start learning' :
               'Take a quick survey to get started'
           }

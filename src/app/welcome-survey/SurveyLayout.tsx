@@ -30,7 +30,7 @@ const SurveyLayout: React.FC<SurveyLayoutProps> = ({
               className="w-[40px] h-[40px] md:w-[72px] md:h-[72px] flex items-center justify-center"
             >
               <Image
-                src="/assets/image/back button.png"
+                src="/assets/image/back button.jpg"
                 alt="Back"
                 width={72}
                 height={72}

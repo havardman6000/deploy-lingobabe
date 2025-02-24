@@ -56,7 +56,7 @@ const BenefitsPage = () => {
           <div className="w-full md:w-[45%] flex justify-center">
             <div className="w-[300px] h-[200px] md:w-[500px] md:h-[350px] relative">
               <Image
-                src="/assets/image/onboarding_msg tp_2.png"
+                src="/assets/image/onboarding_msg tp_2.jpg"
                 alt="Here's what you can achieve in 3 months or less!"
                 fill
                 className="object-contain"
@@ -69,7 +69,7 @@ const BenefitsPage = () => {
           <div className="w-full md:w-[55%] flex justify-center md:justify-start">
             <div className="w-[300px] h-[250px] md:w-[500px] md:h-[350px] relative">
               <Image
-                src="/assets/image/onboarding_msg tp_2.1.png"
+                src="/assets/image/onboarding_msg tp_2.1.jpg"
                 alt="Benefits description"
                 fill
                 className="object-contain"

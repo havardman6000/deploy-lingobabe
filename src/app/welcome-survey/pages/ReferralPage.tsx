@@ -29,7 +29,7 @@ const ReferralPage = () => {
         <div className="w-full md:w-[45%] flex justify-center md:justify-end mb-2 md:mb-0 mt-[-20px] md:mt-0">
           <div className="w-[300px] h-[240px] md:w-[500px] md:h-[350px] relative">
             <Image
-              src="/assets/image/onboarding msg_3.png"
+              src="/assets/image/onboarding msg_3.jpg"
               alt="How did you hear about Lingobabe?"
               fill
               className="object-contain"

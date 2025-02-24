@@ -9,7 +9,7 @@ const WelcomePage = () => {
       <div className="flex-1 flex flex-col items-center justify-center w-full px-4">
         <div className="relative max-w-[600px] w-full mx-auto flex flex-col items-center">
           <Image
-            src="/assets/image/onboarding msg_1.png"
+            src="/assets/image/onboarding msg_1.jpg"
             alt="Virtual Date Welcome Message"
             width={600}
             height={400}

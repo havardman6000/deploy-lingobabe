@@ -11,7 +11,7 @@ const PaymentPage = () => {
         {/* Cloud Background */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/assets/image/onboarding_payment_clouds.png"
+            src="/assets/image/onboarding_payment_clouds.jpg"
             alt="Background clouds"
             fill
             className="object-cover"
@@ -31,7 +31,7 @@ const PaymentPage = () => {
           <div className="w-full max-w-[450px] flex justify-center mb-2 md:mb-3">
             <div className="w-[280px] h-[280px] md:w-[350px] md:h-[280px] relative -mt-2 md:-mt-2">
               <Image
-                src="/assets/image/payment_1.1.png"
+                src="/assets/image/payment_1.1.jpg"
                 alt="Trial period information"
                 fill
                 className="object-contain object-center"
@@ -46,7 +46,7 @@ const PaymentPage = () => {
             {/* Background Image */}
             <div className="w-full h-[42px] md:h-[52px] relative">
               <Image
-                src="/assets/image/trial reminder.png"
+                src="/assets/image/trial reminder.jpg"
                 alt="Trial reminder enabled"
                 fill
                 className="object-contain"
@@ -76,7 +76,7 @@ const PaymentPage = () => {
           <div className="w-full max-w-[450px] flex flex-col items-center -mt-2">
             <div className="w-[380px] h-[120px] md:w-[450px] md:h-[130px] relative mb-3 md:mb-4">
               <Image
-                src="/assets/image/payment_1.2.png"
+                src="/assets/image/payment_1.2.jpg"
                 alt="Trial information and cancellation details"
                 fill
                 className="object-contain"
